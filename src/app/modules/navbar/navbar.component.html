@@ -1,0 +1,22 @@
+<nav class="navbar">
+    <div class="logo">
+      <img src="assets/img/logo.jpg" alt="Logo" (click)="navigateHome()">
+    </div>
+    <div class="menu-icon" (click)="toggleMenu()">
+      <span class="material-icons">menu</span>
+    </div>
+    <ul class="nav-links">
+      <li><a routerLink="/tiles" routerLinkActive="active-link" (click)="closeMenu()">Tiles</a></li>
+      <li><a routerLink="/projects" routerLinkActive="active-link" (click)="closeMenu()">Projects</a></li>
+      <li><a routerLink="/about" routerLinkActive="active-link" (click)="closeMenu()">About Us</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active-link" (click)="closeMenu()">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="mobile-nav-links" [class.open]="menuOpen">
+    <ul>
+      <li><a routerLink="/tiles" routerLinkActive="active-link" (click)="closeMenu()">Tiles</a></li>
+      <li><a routerLink="/projects" routerLinkActive="active-link" (click)="closeMenu()">Projects</a></li>
+      <li><a routerLink="/about" routerLinkActive="active-link" (click)="closeMenu()">About Us</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active-link" (click)="closeMenu()">Contact Us</a></li>
+    </ul>
+  </div>
