@@ -18,7 +18,7 @@ export class ProjectsComponent implements OnInit {
     { name: 'PRIME LIBRA KOSWATTE', image: 'PRIME-LIBRA-KOSWATTE.jpg' },
     { name: 'PRIME ETHULKOTTE', image: 'PRIME-ETHULKOTTE.jpg' },
     { name: 'PRIME RESIDENCIES PAGODA', image: 'PRIME-RESIDENCIES-PAGODA.jpg' },
-    { name: 'TEMPLER’S SQUARE KELSEY HOMES', image: 'TEMPLER’S-SQUARE-KELSEY-HOMES.jpg' },
+    { name: 'TEMPLER’S SQUARE KELSEY HOMES', image: 'TEMPLERS-SQUARE-KELSEY-HOMES.jpg' },
     { name: 'PRIME RESIDENCIES PANADURA', image: 'PRIME-RESIDENCIES-PANADURA.jpg' },
     { name: '194 PRIME NUGEGODA', image: '194-PRIME-NUGEGODA.jpg' },
     { name: 'PRIME RESIDENCIES CASTLE STREET', image: 'PRIME-RESIDENCIES-CASTLE-STREET.jpg' },
